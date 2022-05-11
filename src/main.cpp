@@ -3,7 +3,8 @@
 
 void setup() {
   M5.begin();
-  
+  M5.Lcd.setTextSize(3);
+  M5.Lcd.printf("Hallo New World");
   
 }
 
